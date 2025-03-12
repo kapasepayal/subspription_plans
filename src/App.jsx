@@ -35,7 +35,7 @@ export default function App() {
 
           <span className="mt-6 font-serif mr-4 text-[14px] lg:text-[16px] xl:text-[18px]">₹ INR</span>
 
-          <label  htmlFor="check" className="bg-blue-600  cursor-pointer relative px-7 top-0 pr-5 py-1 w-26 lg:h-7 rounded-full mt-8">
+          <label  htmlFor="check" className=" bg-blue-600  cursor-pointer relative px-7 top-0 pr-5 py-1 w-26 lg:h-7 rounded-full mt-8">
             <input onClick={set} type="checkbox" id="check" className="sr-only peer" />
             <span className=" w-[40%] h-[66%] bg-white absolute rounded-full left-1 top-1 px-1 peer-checked:bg-white
               peer-checked:left-6 " ></span>

@@ -4,12 +4,13 @@ function Card( {val}) {
     console.log(val)
     return (
        
-         <div className='  grid sm:grid-cols-2 sm:mx-10   md:grid-cols-2 md:ml-32 md:mx-20  lg:grid-cols-3 xl:grid-cols-4 xl:mx-[5rem]    '>
+         <div className='  grid xs:mx-20 sm-ml-0 sm:grid-cols-2 md:grid-cols-2 md:ml-10 md:mx-20  lg:grid-cols-3 xl:grid-cols-4 xl:ml-8    '>
+        {/* //  <div className='  grid  sm:static sm:grid-cols-2 md:grid-cols-2   lg:grid-cols-3 xl:grid-cols-4 text-center    '> */}
             
             {
                 data.map((plans, index) => (
-                    <div  key={index} className=" w-64 ml-8 mb-2 p-3  border-2  rounded-lg   hover:border-blue-600 shadow-md transition-transform transform hover:scale-105
-                                         sm:p-4  sm:mb-4 md:mr-20 md:mb-5 xl:w-[18rem] lg:p-5 lg:mb-5">
+                    <div  key={index} className=" w-64 ml-8 sm:ml-16  mb-2 p-3  border-2  rounded-lg   hover:border-blue-600 shadow-md transition-transform transform hover:scale-105
+                                          sm:p-4 md:12  sm:mb-4 md:mr-20 md:mb-5 xl:w-[18rem] lg:p-5 lg:mb-5">
 
 
                         <div  className="text-[18px]  pb-2 font-serif text-2xl font-bold text-center 
