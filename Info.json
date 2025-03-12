@@ -1,0 +1,55 @@
+[
+    {
+      "name": "Free",
+      "price1": "₹0",
+      "price2": "$0",
+      "features": [
+        "5 mock interviews",
+        "10 mock tests",
+        "5 technical tests",
+        "Basic coding resources"
+        
+      ]
+    },
+    {
+      "name": "Basic",
+      "price1": "₹522",
+      "price2": "$5.99",
+      "features": [
+        "10 mock interviews",
+        "20 mock tests",
+        "10 technical tests",
+        "Resume review",
+        "Basic coding resources"
+       
+      ]
+    },
+    {
+      "name": "Premium",
+      "price1": "₹784",
+      "price2": "$8.99",
+      "features": [
+        "20 mock interviews",
+        "40 mock tests",
+        "20 technical tests",
+        "Resume review",
+        "Personal mentorship",
+        "Advanced coding resources"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price1": "₹1,046",
+      "price2": "$11.99",
+      "features": [
+        "50 mock interviews",
+        "100 mock tests",
+        "50 technical tests",
+        "Resume review",
+        "Personal mentorship",
+        "Priority support",
+        "Interview tips & strategies"
+      ]
+    }
+  ]
+  
