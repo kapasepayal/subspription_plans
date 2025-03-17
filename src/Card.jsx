@@ -4,16 +4,16 @@ function Card( {val}) {
     console.log(val)
     return (
        
-         <div className='  grid xs:mx-20 sm-ml-0 sm:grid-cols-2 md:grid-cols-2 md:ml-10 md:mx-20  lg:grid-cols-3 xl:grid-cols-4 xl:ml-8    '>
+         <div className='  grid mx-0 xs:mx-28 sm:ml-10 sm-mx-10 sm:grid-cols-2 md:grid-cols-2 md:ml-20 md:mx-20  lg:grid-cols-3 xl:grid-cols-4     '>
         {/* //  <div className='  grid  sm:static sm:grid-cols-2 md:grid-cols-2   lg:grid-cols-3 xl:grid-cols-4 text-center    '> */}
             
             {
                 data.map((plans, index) => (
-                    <div  key={index} className=" w-64 ml-8 sm:ml-16  mb-2 p-3  border-2  rounded-lg   hover:border-blue-600 shadow-md transition-transform transform hover:scale-105
-                                          sm:p-4 md:12  sm:mb-4 md:mr-20 md:mb-5 xl:w-[18rem] lg:p-5 lg:mb-5">
+                    <div  key={index} className=" w-64 ml-8  mb-2 p-3  border-2  rounded-lg   hover:border-blue-600 shadow-md transition-transform transform hover:scale-105
+                                         md:ml-10 sm:p-4 md:12  sm:mb-4 md:mr-10 md:mb-5 xl:w-[18rem] lg:p-5 lg:mb-5">
 
 
-                        <div  className="text-[18px]  pb-2 font-serif text-2xl font-bold text-center 
+                        <div  className="text-[18px] pb-2 font-serif text-2xl font-bold text-center 
                         sm:text-[18px] sm:pb-3
                         md:text-[20px] md:pb-4
                         lg:text-[22px] lg:pb-4
@@ -30,7 +30,7 @@ function Card( {val}) {
                              sm:text-[14px] sm:h-40 sm:mb-2
                              md:text-[16px] md:h-44 md:mb-4
                              lg:text-[17px] lg:h-52 lg:mb-2
-                             xl:text-[18px] xl:h-64 xl:text-center">
+                             xl:text-[17px] xl:h-64 xl:text-center">
                                 {
                                     plans.features.map((feature, i) => (
                                         <li key={i} className='flex '>
